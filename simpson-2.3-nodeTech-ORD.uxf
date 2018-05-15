@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>54</y>
+      <w>153</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+may enroll &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>9</x>
+      <y>45</y>
+      <w>189</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>STUDENT
+--
+_id
+first_name
+last_name
+mi</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>657</x>
+      <y>36</y>
+      <w>189</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Class
+--
+_id
+name
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>162</x>
+      <y>252</y>
+      <w>477</w>
+      <h>342</h>
+    </coordinates>
+    <panel_attributes>
+halign=left
+// student
+{ "id":"1",
+"name":"David"
+
+}
+
+// enroll
+{ "id":"2",
+"grade":"11"
+}
+
+// class
+{ "id":"3",
+"name":"Introduction to Calculus",
+
+}
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>324</x>
+      <y>36</y>
+      <w>189</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>ENROLL
+--
+_id
+grade</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>54</y>
+      <w>171</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+may enroll &gt;</panel_attributes>
+    <additional_attributes>170.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+</diagram>
