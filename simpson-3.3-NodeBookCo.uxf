@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>10</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>PUBLISHER
+--
+publisher_name
+publisher_code
+publisher_address
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>10</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>BOOK
+--
+book_isbn
+book_name
+book_price
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>10</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>AUTHOR
+--
+author_first_name
+author_last_name
+author_phone
+author_email</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>30</y>
+      <w>250</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+can publish &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>30</y>
+      <w>250</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.*
+m2=1.1
+can be written by &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>260</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>PUBLISHER
+--
+publisher_name
+publisher_code
+publisher_address
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>970</x>
+      <y>100</y>
+      <w>100</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+can have &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>380</y>
+      <w>330</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>PUBLISHER
+--
+{
+"publisher_name": "Yolla Harandez",
+"publisher_code" "11457931",
+"publisher_address" "P Sherman, 42 Wallaby Way"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>400</y>
+      <w>260</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+can publish &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>380</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>BOOK
+--
+{
+"book_isbn": "1732140774",
+"book_name": "A great Likeness",
+"book_price": "12.99"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>400</y>
+      <w>270</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.*
+m2=1.1
+can be written by &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>380</y>
+      <w>250</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>AUTHOR
+--
+{
+"author_first_name": "Billiard",
+"author_last_name": "Bawl",
+"author_phone": "271-931-3397",
+"author_email": "bbawl@gmail.com"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>540</y>
+      <w>460</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>halign=left
+{
+// data structure
+"publisher_name":"Yolla Harandez",
+"publisher_code":"11457931",
+"publisher_address":"P Sherman, 42 Wallaby Way",
+"book": 
+[ 
+"book_isbn":"1732140774", 
+"book_name":"A great Likeness",
+"book_price":"17.99"
+],
+"author_first_name": "Billiard",
+"author_last_name": "Bawl",
+"author_phone": "271-931-3397",
+"author_email": "bbawl@gmail.com"
+}
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>540</y>
+      <w>410</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>halign=left
+Business Rules
+--
+1. ONE Publisher can publish MANY books
+2. MANY books can be written by ONE author
+3. ONE author can have MANY publishers
+4. ONE publisher can publish MANY authors
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
