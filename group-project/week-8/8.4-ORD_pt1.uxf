@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>256</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>BASIC USER
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>152</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Movies
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>224</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>TV Shows
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>296</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Commercials
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>368</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Active Streaming Connection
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>152</y>
+      <w>192</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;130.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>304</y>
+      <w>192</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.1
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>224</y>
+      <w>192</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>288</y>
+      <w>192</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.1
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>160</x>
+      <y>608</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>PLUS USER
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>504</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Movies
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>576</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>TV Shows
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>648</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Commercials
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>720</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Active Streaming Connection
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>504</y>
+      <w>192</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;130.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>656</y>
+      <w>192</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.2
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>576</y>
+      <w>192</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>640</y>
+      <w>192</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.0
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>696</x>
+      <y>440</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>PREMIUM USER
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>856</x>
+      <y>336</y>
+      <w>192</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;130.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1032</x>
+      <y>336</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Movies
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1032</x>
+      <y>408</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>TV Shows
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>856</x>
+      <y>408</y>
+      <w>192</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1032</x>
+      <y>480</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Commercials
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>856</x>
+      <y>472</y>
+      <w>192</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.0
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1032</x>
+      <y>552</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Active Streaming Connection
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>856</x>
+      <y>488</y>
+      <w>192</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.4
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>288</x>
+      <y>656</y>
+      <w>224</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.1
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>496</x>
+      <y>792</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Pre-recorded Sport Events
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>824</x>
+      <y>488</y>
+      <w>224</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.1
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1032</x>
+      <y>624</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Pre-recorded Sport Events
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>784</x>
+      <y>488</y>
+      <w>264</w>
+      <h>264</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.1
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;310.0;310.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1032</x>
+      <y>696</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>DVR
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1032</x>
+      <y>264</y>
+      <w>168</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>Premium Channels
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>824</x>
+      <y>264</y>
+      <w>224</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.2
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;220.0;260.0;10.0</additional_attributes>
+  </element>
+</diagram>
